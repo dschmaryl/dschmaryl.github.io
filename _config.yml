@@ -1,0 +1,19 @@
+name: Daryl Smith
+title: Daryl Smith
+
+author:
+  name: "Daryl Smith"
+  url: dschmaryl.github.io
+  github: "https://github.com/dschmaryl"
+  linkedin: "https://www.linkedin.com/in/dschmaryl"
+
+github:
+  repo: https://github.com/dschmaryl/dschmaryl.github.io
+
+markdown: kramdown
+
+url: https://dschmaryl.github.io
+baseurl: ""
+
+collections:
+  - projects
