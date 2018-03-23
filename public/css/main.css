@@ -1,24 +1,30 @@
 body {
   margin:40px auto;
-  max-width: 600px;
   line-height: 1.6;
   font-size: 18px;
   color: #444;
 }
+
+.container {
+  padding-left: 310px;
+  padding-right: 20px;
+}
+
 h1, h2, h3, h4 {
   line-height: 1.2;
 }
+
 a {
   color: #1a9983;
   text-decoration: none;
 }
+
 a:hover {
   color: #777;
 }
 
 .sidebar {
   height: 100%;
-  /* width: 200px; */
   position: fixed;
   z-index: 1;
   top: 0;
@@ -26,4 +32,17 @@ a:hover {
   background-color: #EEE;
   overflow-x: hidden;
   padding: 60px 20px 0 20px;
+}
+
+.page-header {
+  padding-bottom: 10px;
+}
+
+.project {
+  padding-bottom: 10px;
+}
+
+.bold {
+  font-weight: bold;
+  padding-right: 5px;
 }

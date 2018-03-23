@@ -4,14 +4,14 @@ title: "Resume"
 ---
 
 <h3>Education:</h3>
-Binghamton University 2010 - 2012
-B.A. in Mathematics, GPA: 3.0
-Member of the Pi Mu Epsilon Mathematics Honorary Society
-Relevant Coursework: Graph Theory, Linear Algebra, Financial Math, Economics
+<span class="bold">Binghamton University</span> 2010 - 2012<br />
+B.A. in Mathematics, GPA: 3.0<br />
+Member of the Pi Mu Epsilon Mathematics Honorary Society<br />
+Relevant Coursework: Graph Theory, Linear Algebra, Financial Math, Economics<br />
 
-Orange County Community College 2008 - 2010
-Major: Mathematics, GPA: 4.0
-Awarded Certificate of Merit by the Mathematics Department
+<span class="bold">Orange County Community College</span> 2008 - 2010<br />
+Major: Mathematics, GPA: 4.0<br />
+Awarded Certificate of Merit by the Mathematics Department<br />
 
 Other Coursework: Design and Analysis of Algorithms at Coursera
 
