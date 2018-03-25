@@ -1,12 +1,13 @@
 body {
   margin:40px auto;
   line-height: 1.6;
+  font-family: sans-serif;
   font-size: 18px;
   color: #444;
 }
 
 .container {
-  padding: 10px 20px 0 310px;
+  padding: 10px 20px 0 280px;
 }
 
 h1, h2, h3, h4 {
