@@ -2,6 +2,9 @@
 layout: page
 title: "Resume"
 ---
+[Click here for pdf version.]({{ site.baseurl }}/public/Resume.pdf)
+<br /><br />
+
 <h3>Education:</h3>
 <span class="bold">Binghamton University</span> 2010 - 2012<br />
 B.A. in Mathematics, GPA: 3.0<br />
