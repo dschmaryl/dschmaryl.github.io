@@ -2,7 +2,6 @@
 layout: page
 title: "Resume"
 ---
-
 <h3>Education:</h3>
 <span class="bold">Binghamton University</span> 2010 - 2012<br />
 B.A. in Mathematics, GPA: 3.0<br />
@@ -13,8 +12,8 @@ Relevant Coursework: Graph Theory, Linear Algebra, Financial Math, Economics<br 
 Major: Mathematics, GPA: 4.0<br />
 Awarded Certificate of Merit by the Mathematics Department<br />
 
-Other Coursework: Design and Analysis of Algorithms at Coursera
-
+Other Coursework: Design and Analysis of Algorithms at Coursera<br />
+<br />
 <h3>Professional Skills:</h3>
 <ul>
   <li>Python: Flask, Django, Pandas, Numpy, Ipython, Jupyter Notebook, pip, virtualenv</li>
