@@ -1,4 +1,5 @@
 body {
+  min-width: 360px;
   line-height: 1.6;
   font-family: 'Mukta Mahee', sans-serif;
   font-size: 20px;
@@ -7,6 +8,12 @@ body {
 
 .container {
   padding: 60px 100px 60px 100px;
+}
+
+@media (max-width: 990px) {
+  .container {
+    padding: 40px 60px 40px 60px;
+  }
 }
 
 a {
@@ -23,6 +30,13 @@ a:hover {
   background-color: #f1f1f1;
   padding-left: 80px;
   padding-right: 80px;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
 .navbar-brand {
