@@ -1,4 +1,5 @@
 body {
+  min-width: 340px;
   line-height: 1.6;
   font-family: 'Mukta Mahee', sans-serif;
   font-size: 20px;
@@ -6,7 +7,7 @@ body {
 }
 
 .container {
-  padding: 60px 60px 60px 60px;
+  padding: 60px 80px 60px 80px;
 }
 
 a {
@@ -27,9 +28,10 @@ a:hover {
 
 .navbar-brand {
   font-size: 1.6em;
+  padding-left: 30px;
 }
 
-.navbar a {
+.navbar ul > a {
   padding: 0 20px 0 20px;
 }
 
@@ -42,11 +44,12 @@ nav a:hover {
 }
 
 .collapsing, .show {
-  padding: 20px 0 10px 20px;
+  padding: 20px 0 10px 30px;
 }
 
 .selfie {
   border-radius: 50%;
+  margin-bottom: 20px;
 }
 
 .page-header {
