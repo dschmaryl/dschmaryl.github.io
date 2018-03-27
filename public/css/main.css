@@ -36,6 +36,13 @@ a:hover {
   padding: 40px 20px 0 20px;
 }
 
+.selfie {
+  border-radius: 50%;
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
 .page-header {
   padding-bottom: 10px;
 }
