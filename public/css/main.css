@@ -1,5 +1,4 @@
 body {
-  margin:40px auto;
   line-height: 1.6;
   font-family: 'Mukta Mahee', sans-serif;
   font-size: 20px;
@@ -7,12 +6,7 @@ body {
 }
 
 .container {
-  margin-left: 240px;
-  padding: 10px 60px 0 60px;
-}
-
-h1, h2, h3, h4 {
-  line-height: 1.2;
+  padding: 60px 60px 60px 60px;
 }
 
 a {
@@ -22,25 +16,37 @@ a {
 
 a:hover {
   color: #777;
+  text-decoration: none;
 }
 
-.sidebar {
-  height: 100%;
-  min-width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #EEE;
-  overflow-x: hidden;
-  padding: 40px 20px 0 20px;
+.navbar {
+  background-color: #f1f1f1;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.navbar-brand {
+  font-size: 1.6em;
+}
+
+.navbar a {
+  padding: 0 20px 0 20px;
+}
+
+nav a {
+  color: #1a9983 !important;
+}
+
+nav a:hover {
+  color: #777 !important;
+}
+
+.collapsing, .show {
+  padding: 20px 0 10px 20px;
 }
 
 .selfie {
   border-radius: 50%;
-  width: 50%;
-  margin: auto;
-  display: block;
 }
 
 .page-header {
