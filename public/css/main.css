@@ -1,5 +1,4 @@
 body {
-  min-width: 340px;
   line-height: 1.6;
   font-family: 'Mukta Mahee', sans-serif;
   font-size: 20px;
@@ -7,7 +6,7 @@ body {
 }
 
 .container {
-  padding: 60px 80px 60px 80px;
+  padding: 60px 100px 60px 100px;
 }
 
 a {
@@ -22,13 +21,13 @@ a:hover {
 
 .navbar {
   background-color: #f1f1f1;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .navbar-brand {
-  font-size: 1.6em;
-  padding-left: 30px;
+  font-size: 1.8em;
+  padding-right: 20px;
 }
 
 .navbar ul > a {
@@ -44,12 +43,12 @@ nav a:hover {
 }
 
 .collapsing, .show {
-  padding: 20px 0 10px 30px;
+  padding: 20px 0 10px 20px;
 }
 
 .selfie {
   border-radius: 50%;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .page-header {
