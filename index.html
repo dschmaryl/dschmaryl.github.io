@@ -1,10 +1,135 @@
----
-layout: page
-title: "Projects"
----
-{% for project in site.projects %}
-  <div class="project">
-    <h3><a href="{{ project.website }}" title="{{ project.title }}">{{ project.title }}</a></h3>
-    <p>{{ project.content }}</p>
-  </div>
-{% endfor %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="static/css/main.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <title>Daryl Smith - Portfolio</title>
+  </head>
+
+  <body>
+
+    <header id="header">
+      <div class="inner" id="nav">
+        <a href="#" class="image avatar"><img src="static/images/selfie_160x160.jpg" alt="" /></a>
+        <h1><strong>Daryl Smith</strong></h1>
+        <aside>Python and Javascript developer, Linux enthusiast, and golf fanatic.</aside><br />
+        <h4><a href="#">About Me</a></h4>
+        <h4><a href="#projects">Projects</a></h4>
+        <h4><a href="#resume">Resume</a></h4>
+        <br /><br />
+        <a href="https://github.com/dschmaryl"><i class="fab fa-2x fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/dschmaryl/"><i class="fab fa-2x fa-linkedin"></i></a>
+      </div>
+    </header>
+
+    <div id="main">
+      <section id="about">
+
+        <header>
+          <h2>
+            My name is Daryl Smith,<br />
+            and my passion is writing code and watching it work.
+          </h2>
+        </header>
+        <p>
+          I especially love creating things which can make my or someone else's life easier, which I find to be tremendously rewarding. I have been using Linux for a number of years and I really enjoy writing scripts to automate tasks in order to create a smoother environment for whatever I happen to be doing. Another area from which I get a lot of satisfaction is the design of algorithms that solve interesting problems.
+        </p>
+
+      </section>
+
+      <section id="projects">
+        <a name="projects"></a>
+
+        <h2>Projects</h2>
+        <div class="row">
+          <article class="project">
+            <a href="https://github.com/dschmaryl/golf-stats" class="image thumb"><img src="static/images/thumbs/01.jpg" alt="golf-stats-thumbnail" /></a>
+            <h3><a href="https://github.com/dschmaryl/golf-stats">Golf-Stats</a></h3>
+            <p>A web app for keeping track of rounds of golf played and personal statistics.</p>
+          </article>
+          <article class="project">
+            <a href="https://github.com/dschmaryl/i3-layout-scripts" class="image thumb"><img src="static/images/thumbs/02.jpg" alt="i3-layout-scripts-thumbnail" /></a>
+            <h3><a href="https://github.com/dschmaryl/i3-layout-scripts">i3 Layouts Scripts</a></h3>
+            <p>Python scripts for managing tiled window layouts in the i3 window manager.</p>
+          </article>
+          <article class="project">
+            <a href="https://github.com/dschmaryl/golf-handicap-estimator" class="image thumb"><img src="static/images/thumbs/03.jpg" alt="golf-handicap-thumbnail" /></a>
+            <h3><a href="https://github.com/dschmaryl/golf-handicap-estimator">Golf Handicap Estimator</a></h3>
+            <p>Single-page React app that can give an estimate of a golfer's handicap.</p>
+          </article>
+          <article class="project">
+            <a href="https://github.com/dschmaryl/pomodoro-clock" class="image thumb"><img src="static/images/thumbs/04.jpg" alt="pomodoro-clock-thumbnail" /></a>
+            <h3><a href="https://github.com/dschmaryl/pomodoro-clock">Pomodoro Clock</a></h3>
+            <p>A fully adjustable Pomodoro timer created in React.</p>
+          </article>
+        </div>
+
+        <h4><a href="https://github.com/dschmaryl" class="button">See My GitHub Profile</a></h4>
+
+      </section>
+
+      <section id="resume">
+        <a name="resume"></a>
+
+        <h2>Resume</h2>
+        <p>
+          <h4><a href="static/Resume.pdf">Click here for PDF version.</a></h4>
+        </p>
+        <br />
+        <p>
+          <h3>Education:</h3>
+          <span class="bold">Binghamton University</span> 2010 - 2012<br />
+          B.A. in Mathematics, GPA: 3.0<br />
+          Member of the Pi Mu Epsilon Mathematics Honorary Society<br />
+          Relevant Coursework: Graph Theory, Linear Algebra, Financial Math, Economics<br />
+        </p>
+        <p>
+          <span class="bold">Orange County Community College</span> 2008 - 2010<br />
+          Major: Mathematics, GPA: 4.0<br />
+          Awarded Certificate of Merit by the Mathematics Department<br />
+        </p>
+        <p>
+          Other Coursework: Design and Analysis of Algorithms at Coursera<br />
+        </p>
+        <p>
+          <h3>Professional Skills:</h3>
+          <ul>
+            <li>
+              <span class="bold">Python:</span> Flask, Django, Pandas, Numpy, Ipython, Jupyter Notebook, pip, virtualenv
+            </li>
+            <li>
+              <span class="bold">Javascript:</span> Node.js, React.js, jQuery, functional programming
+            </li>
+            <li>
+              <span class="bold">Other languages/frameworks:</span> HTML, CSS, Bootstrap, Git/GitHub, Ruby, Bash
+            </li>
+            <li>
+              <span class="bold">Linux:</span> Extensive Linux experience, shell scripting, Nginx, Apache, NFS, SSH, KVM/VirtualBox
+            </li>
+          </ul>
+        </p>
+
+      </section>
+
+      <section id="footer">
+        <p>Design based on a template by <a href="http://html5up.net">HTML5 UP</a>.</p>
+      </section>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/jquery.localScroll.js" integrity="sha256-R/b2LxEylxSN+YDuKXreqphxLBCJ1LXeabZHBQwe+HE=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.js" integrity="sha256-p95IL1RESG1u1ynqmQcAY3f8iXyCWEBX/xtCjdUluG8=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+         $('#nav').localScroll({duration:600});
+      });
+    </script>
+
+  </body>
+</html>
