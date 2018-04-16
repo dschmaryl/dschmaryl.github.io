@@ -1,4 +1,3 @@
-
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -13,7 +12,6 @@ body {
   line-height: 1.75em;
   min-width: 800px;
 }
-
 
 a {
   -moz-transition: color 0.15s ease-in-out, border-color 0.15s ease-in-out;
@@ -164,7 +162,6 @@ h6 {
 }
 
 
-
 #header {
   display: -moz-flex;
   display: -webkit-flex;
@@ -248,14 +245,12 @@ h6 {
 }
 
 
-
 #main {
   margin-left: 32%;
   max-width: 54em;
   padding: 8em 4em 4em 4em;
   width: calc(100% - 35%);
 }
-
 
 @media screen and (max-width: 980px) {
   #main {
@@ -275,7 +270,6 @@ h6 {
   }
 }
 
-
 #main > section {
   border-top: solid 1px #efefef;
   margin-bottom: 4em;
@@ -287,7 +281,6 @@ h6 {
   margin-top: 0;
   padding-top: 0;
 }
-
 
 
 .project {
@@ -312,4 +305,9 @@ h6 {
 #footer {
   color: #c0c0c0;
   font-size: 0.8em;
+}
+
+.bold {
+  font-weight: bold;
+  padding-right: .5em;
 }
