@@ -174,7 +174,7 @@ h6 {
   -ms-justify-content: space-between;
   justify-content: space-between;
   background-color: #1f1815;
-  background-attachment: scroll, fixed;
+  background-attachment: fixed;
   background-image: url("../images/overlay.png"), url("../images/bg.jpg");
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
@@ -239,8 +239,12 @@ h6 {
   margin-right: 20px;
 }
 
+#top {
+  margin-top: -8px;
+}
 
 #main {
+  margin-top: 8px;
   margin-left: 32%;
   max-width: 54em;
   padding: 8em 4em 4em 4em;
@@ -297,7 +301,9 @@ h6 {
   margin: 0;
 }
 
-#footer {
+footer {
+  border-top: solid 1px #efefef;
+  padding-top: 4em;
   color: #c0c0c0;
   font-size: 0.8em;
 }
