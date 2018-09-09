@@ -81,7 +81,6 @@ h6 {
   border: 0;
   display: inline-block;
   position: relative;
-  z-index: -1;
 }
 
 .image.thumb:after {
@@ -122,38 +121,6 @@ h6 {
   display: block;
 }
 
-.image.left {
-  float: left;
-  margin: 0 1.5em 1em 0;
-  top: 0.25em;
-}
-
-.image.right {
-  float: right;
-  margin: 0 0 1em 1.5em;
-  top: 0.25em;
-}
-
-.image.left,
-.image.right {
-  max-width: 40%;
-}
-
-.image.left img,
-.image.right img {
-  width: 100%;
-}
-
-.image.fit {
-  display: block;
-  margin: 0 0 2em 0;
-  width: 100%;
-}
-
-.image.fit img {
-  width: 100%;
-}
-
 .image.avatar {
   border-radius: 100%;
 }
@@ -167,7 +134,7 @@ h6 {
   width: 100%;
 }
 
-#header {
+#sidebar {
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -201,7 +168,7 @@ h6 {
   min-width: 324px;
 }
 
-#header > * {
+#sidebar > * {
   -moz-flex-shrink: 0;
   -webkit-flex-shrink: 0;
   -ms-flex-shrink: 0;
@@ -209,7 +176,7 @@ h6 {
   width: 100%;
 }
 
-#header > .inner {
+#sidebar > .inner {
   -moz-flex-grow: 1;
   -webkit-flex-grow: 1;
   -ms-flex-grow: 1;
@@ -217,41 +184,41 @@ h6 {
   margin: 0 0 2em 0;
 }
 
-#header strong,
-#header b {
+#sidebar strong,
+#sidebar b {
   color: #ffffff;
   font-weight: 400;
 }
 
-#header h2,
-#header h3,
-#header h4,
-#header h5,
-#header h6 {
+#sidebar h2,
+#sidebar h3,
+#sidebar h4,
+#sidebar h5,
+#sidebar h6 {
   color: #ffffff;
 }
 
-#header h1 {
+#sidebar h1 {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1.25em;
   line-height: 1.75em;
   margin: 0;
 }
 
-#header .image.avatar {
+#sidebar .image.avatar {
   margin: 0 0 1em 0;
   width: 6.25em;
 }
 
-#header a {
+#sidebar a {
   color: #eeeeee;
 }
 
-#header a:hover {
+#sidebar a:hover {
   color: #49bf9e52;
 }
 
-.fa-github {
+#sidebar .fa-github {
   margin-right: 20px;
 }
 
@@ -368,7 +335,7 @@ footer {
 }
 
 @media screen and (max-width: 820px) {
-  #header {
+  #sidebar {
     display: none;
   }
   #topbar {
@@ -379,8 +346,8 @@ footer {
     width: 100%;
     padding: 20% 10%;
   }
-  .fa-github {
-    margin-right: 0;
+  .thumb {
+    z-index: -1;
   }
 }
 
@@ -394,17 +361,10 @@ footer {
   #main {
     padding: 30% 6%;
   }
-  .fa-linkedin {
-    display: none;
-  }
 }
 
-@media screen and (max-width: 400px) {
-  #topbar .image.avatar {
-    margin: -4px 0 0 0;
-    width: 3.4em;
-  }
-  #topbar li a {
-    padding: 14px 10px 6px 8px;
+@media screen and (max-width: 404px) {
+  .image.thumb img {
+    width: 100%;
   }
 }
