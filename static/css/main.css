@@ -344,7 +344,7 @@ footer {
   #main {
     margin: 8px 0 0 0;
     width: 100%;
-    padding: 20% 10%;
+    padding: 20% 10% 10% 10%;
   }
   .thumb {
     z-index: -1;
@@ -353,13 +353,13 @@ footer {
 
 @media screen and (max-width: 560px) {
   #main {
-    padding: 25% 8%;
+    padding: 25% 8% 15% 8%;
   }
 }
 
 @media screen and (max-width: 440px) {
   #main {
-    padding: 30% 6%;
+    padding: 30% 6% 20% 6%;
   }
 }
 
