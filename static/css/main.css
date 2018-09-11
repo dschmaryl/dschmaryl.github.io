@@ -6,7 +6,9 @@
   box-sizing: border-box;
 }
 
-body {
+body,
+input,
+textarea {
   margin: 0;
   color: #8b8b8b;
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
@@ -108,7 +110,7 @@ h6 {
 }
 
 .image.thumb:hover:after {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .image.thumb:hover:before {
@@ -297,6 +299,190 @@ h6 {
   line-height: 1.5em;
   margin: 0;
 }
+
+form {
+  margin: 0 0 2em 0;
+}
+
+/* input style from html5up */
+
+input[type='text'],
+input[type='email'],
+textarea {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background: #f7f7f7;
+  border-radius: 0.35em;
+  border: solid 2px transparent;
+  color: inherit;
+  display: block;
+  outline: 0;
+  padding: 0 0.75em;
+  text-decoration: none;
+  width: 100%;
+}
+
+input[type='text']:invalid,
+input[type='email']:invalid,
+textarea:invalid {
+  box-shadow: none;
+}
+
+input[type='text']:focus,
+input[type='email']:focus,
+textarea:focus {
+  border-color: #777;
+}
+
+input[type='text'],
+input[type='email'] {
+  height: 2.75em;
+}
+
+textarea {
+  padding: 0.75em;
+}
+
+::-webkit-input-placeholder {
+  color: #b2b2b2 !important;
+  opacity: 1;
+}
+
+:-moz-placeholder {
+  color: #b2b2b2 !important;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: #b2b2b2 !important;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #b2b2b2 !important;
+  opacity: 1;
+}
+
+.formerize-placeholder {
+  color: #b2b2b2 !important;
+  opacity: 1;
+}
+
+input[type='submit'],
+input[type='button'],
+.button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+  background-color: transparent;
+  border-radius: 0.35em;
+  border: solid 3px #efefef;
+  color: #787878 !important;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  height: 3.15em;
+  height: calc(2.75em + 6px);
+  line-height: 2.75em;
+  min-width: 10em;
+  padding: 0 1.5em;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+input[type='submit']:hover,
+input[type='button']:hover,
+.button:hover {
+  border-color: #49bf9d;
+  color: #49bf9d !important;
+}
+
+input[type='submit']:active,
+input[type='button']:active,
+.button:active {
+  background-color: rgba(73, 191, 157, 0.1);
+  border-color: #49bf9d;
+  color: #49bf9d !important;
+}
+
+input[type='submit'].icon,
+input[type='button'].icon,
+.button.icon {
+  padding-left: 1.35em;
+}
+
+input[type='submit'].icon:before,
+input[type='button'].icon:before,
+.button.icon:before {
+  margin-right: 0.5em;
+}
+
+input[type='submit'].fit,
+input[type='button'].fit,
+.button.fit {
+  display: block;
+  margin: 0 0 1em 0;
+  min-width: 0;
+  width: 100%;
+}
+
+input[type='submit'].small,
+input[type='button'].small,
+.button.small {
+  font-size: 0.8em;
+}
+
+input[type='submit'].big,
+input[type='button'].big,
+.button.big {
+  font-size: 1.35em;
+}
+
+input[type='submit'].special,
+input[type='button'].special,
+.button.special {
+  background-color: #49bf9d;
+  border-color: #49bf9d;
+  color: #ffffff !important;
+}
+
+input[type='submit'].special:hover,
+input[type='button'].special:hover,
+.button.special:hover {
+  background-color: #5cc6a7;
+  border-color: #5cc6a7;
+}
+
+input[type='submit'].special:active,
+input[type='button'].special:active,
+.button.special:active {
+  background-color: #3eb08f;
+  border-color: #3eb08f;
+}
+
+input[type='submit'].disabled,
+input[type='button'].disabled,
+.button.disabled,
+.button:disabled {
+  background-color: #e7e7e7 !important;
+  border-color: #e7e7e7 !important;
+  color: #b2b2b2 !important;
+  cursor: default;
+}
+
+/* end input style from html5up */
 
 footer {
   border-top: solid 1px #efefef;
