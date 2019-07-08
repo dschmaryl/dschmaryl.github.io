@@ -121,11 +121,6 @@ h6 {
   opacity: 1;
 }
 
-.image.thumb:hover:before {
-  background: url('images/overlay.png'), url('images/overlay.png');
-  opacity: 1;
-}
-
 .image img {
   border-radius: 0.35em;
   display: block;
@@ -164,7 +159,7 @@ h6 {
   /* background-color: #1f1815; */
   background-color: #333333;
   background-attachment: fixed;
-  /* background-image: url('../images/overlay.png'), url('../images/bg.jpg'); */
+  /* background-image: url('../images/bg.jpg'); */
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
   background-size: auto, auto 100%;
