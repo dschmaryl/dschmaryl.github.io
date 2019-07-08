@@ -161,9 +161,10 @@ h6 {
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background-color: #1f1815;
+  /* background-color: #1f1815; */
+  background-color: #424242;
   background-attachment: fixed;
-  background-image: url('../images/overlay.png'), url('../images/bg.jpg');
+  /* background-image: url('../images/overlay.png'), url('../images/bg.jpg'); */
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
   background-size: auto, auto 100%;
@@ -237,7 +238,8 @@ h6 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  /* background-color: #333; */
+  background-color: #424242;
   position: fixed;
   top: 0;
   width: 100%;
