@@ -17,6 +17,13 @@ textarea {
   line-height: 1.75em;
 }
 
+body {
+  background-image: url('../images/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 a {
   -moz-transition: color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   -webkit-transition: color 0.15s ease-in-out, border-color 0.15s ease-in-out;
@@ -157,7 +164,7 @@ h6 {
   -ms-justify-content: space-between;
   justify-content: space-between;
   /* background-color: #1f1815; */
-  background-color: #333333;
+  /* background-color: #333333; */
   background-attachment: fixed;
   /* background-image: url('../images/bg.jpg'); */
   background-position: top left, top left;
@@ -233,8 +240,10 @@ h6 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /* background-color: #333; */
-  background-color: #333333;
+  background-image: url('../images/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   position: fixed;
   top: 0;
   width: 100%;
@@ -269,9 +278,9 @@ h6 {
 #main {
   margin-top: 8px;
   margin-left: 32%;
-  max-width: 80em;
   padding: 8em 4em 4em 4em;
-  width: 65%;
+  width: 62%;
+  background-color: #ffffff;
 }
 
 #main > section {
@@ -505,11 +514,19 @@ footer {
   padding-right: 0.5em;
 }
 
+@media screen and (max-width: 1400px) {
+  #main {
+    margin-left: 32%;
+    padding: 8em 4em 4em 4em;
+    width: 63%;
+  }
+}
+
 @media screen and (max-width: 980px) {
   #main {
     margin-left: 33%;
     padding: 8em 4em 4em 4em;
-    width: 67%;
+    width: 64%;
   }
 }
 
@@ -517,13 +534,13 @@ footer {
   #main {
     margin-left: 34%;
     padding: 8em 4em 4em 4em;
-    width: 66%;
+    width: 65%;
   }
 }
 
 @media screen and (max-width: 880px) {
   #main {
-    margin-left: 35%;
+    margin-left: 34%;
     padding: 8em 4em 4em 4em;
     width: 65%;
   }
@@ -534,16 +551,18 @@ footer {
     display: none;
   }
   #topbar {
+    position: fixed;
     display: initial;
+    z-index: 1;
   }
   #main {
     margin: 8px 0 0 0;
     width: 100%;
     padding: 20% 10% 10% 10%;
   }
-  .thumb {
-    z-index: -1;
-  }
+  /* .thumb {
+    z-index: 0;
+  } */
 }
 
 @media screen and (max-width: 560px) {
