@@ -29,13 +29,13 @@ a {
   -webkit-transition: color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   -ms-transition: color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-  color: #49bf9d;
+  color: #777;
   text-decoration: none;
 }
 
 a:hover {
   border-bottom-color: transparent;
-  color: #49bf9d !important;
+  color: #499abf !important;
   text-decoration: none;
 }
 
@@ -97,7 +97,7 @@ h6 {
   -webkit-transition: opacity 0.15s ease-in-out;
   -ms-transition: opacity 0.15s ease-in-out;
   transition: opacity 0.15s ease-in-out;
-  background: #49bf9d;
+  background: #499abf;
   border-radius: 0.35em;
   color: #fff;
   /* content: 'View on Github'; */
@@ -423,16 +423,16 @@ input[type='button'],
 input[type='submit']:hover,
 input[type='button']:hover,
 .button:hover {
-  border-color: #49bf9d;
-  color: #49bf9d !important;
+  border-color: #499abf;
+  color: #499abf !important;
 }
 
 input[type='submit']:active,
 input[type='button']:active,
 .button:active {
   background-color: rgba(73, 191, 157, 0.1);
-  border-color: #49bf9d;
-  color: #49bf9d !important;
+  border-color: #499abf;
+  color: #499abf !important;
 }
 
 input[type='submit'].icon,
@@ -471,8 +471,8 @@ input[type='button'].big,
 input[type='submit'].special,
 input[type='button'].special,
 .button.special {
-  background-color: #49bf9d;
-  border-color: #49bf9d;
+  background-color: #499abf;
+  border-color: #499abf;
   color: #ffffff !important;
 }
 
